@@ -1,6 +1,7 @@
 service: telegram-bot
 
 plugins:
+  - serverless-offline
   - serverless-dotenv-plugin
   - serverless-plugin-typescript
 
